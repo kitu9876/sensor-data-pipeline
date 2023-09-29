@@ -1,7 +1,10 @@
 confluent-kafka
 requests
 pandas
+six
 pymongo[srv]==4.1.1
 jsonschema==3.2.0
 dnspython
+confluent-kafka[avro,json,protobuf]
+#pyspark==3.2.1
 -e .
